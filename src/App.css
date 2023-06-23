@@ -1,4 +1,15 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -8,19 +19,28 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background: #1d1d20;
     color: white
     
+    
+}
+
+.Menu {
+    color: white;
+    font-size: large;
 }
 
 .title {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: 'omyu_pretty', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .subTitle, .ver {
     text-align: center;
+    font-family: 'omyu_pretty';
 }
 
 .glow-on-hover {
