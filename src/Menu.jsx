@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import style from './Menu.module.css';
-import MyImage from './img/0.png'
+// import style from './Menu.module.css';
+// import MyImage from './img/0.png'
 
 function Menu() {
     return (
