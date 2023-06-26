@@ -25,6 +25,13 @@ body {
     
 }
 
+.weatherwidget-io {
+    width: 350px;
+    margin: auto;
+   
+    
+}
+
 .button {
     text-align: center;
 }
