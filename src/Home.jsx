@@ -26,8 +26,12 @@ export default function Home() {
       
       <div className='body'>
       
-      {/* <div id="ww_c13bb1c0fcd69" v='1.3' loc='id' a='{"t":"horizontal","lang":"ko","sl_lpl":1,"ids":["wl7411"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather for the Following Location: <a href="https://2ua.org/de/kor/uijeongbu/karte/" id="ww_c13bb1c0fcd69_u" target="_blank">karte von Uijeongbu</a></div> */}
       <a className="weatherwidget-io" href="https://forecast7.com/en/37d74127d03/uijeongbu-si/" data-label_1="UIJEONGBU-SI" data-label_2="WEATHER" data-icons="Climacons" data-textcolor="#ffffff" >UIJEONGBU-SI WEATHER</a>
+      <div className='live'>
+        <p>도봉산역 : 🟢</p>
+        <p>화정역 : 🟡</p>
+        <p>구리역 : ❌</p>
+      </div>
        <h1 className="title">오뱃뭐?</h1>
        <h3 className= "subTitle">환영합니다.</h3>
        <div className='button'>
