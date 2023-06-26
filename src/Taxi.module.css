@@ -22,3 +22,14 @@
     width: 20px;
     height: 20px;
 }
+
+.start {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.start_btn {
+    width: 150px;
+    height: 30px;
+}

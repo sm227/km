@@ -25,6 +25,10 @@ body {
     
 }
 
+.button {
+    text-align: center;
+}
+
 .Menu {
     color: white;
     font-size: large;
