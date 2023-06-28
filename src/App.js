@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import Menu from './Menu';
 import Taxi from './Taxi';
+import Admin from './Admin';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
               <Route path={"/"} element={<Home />}></Route>
               <Route path={"/Menu"} element={<Menu />}></Route>
               <Route path={"/Taxi"} element={<Taxi />}></Route>
+              <Route path={"/Admin"} element={<Admin />}></Route>
               
           </Routes>
           </BrowserRouter>

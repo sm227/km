@@ -14,15 +14,19 @@ function Taxi() {
     }
   }
 
+  
   const text = {
-    0: "✅ 반드시 도봉산 역에 도착한 후 신청해 주세요.\n ✅매칭 후에는 취소할 수 없어요!\n ✅ 매칭 후 취소할 경우 서비스 이용이 제한될 수 있습니다.",
+    0: "✅ 반드시 도봉산 역에 도착한 후 신청해 주세요.\n ✅매칭 후에는 취소할 수 없어요!\n ✅ 매칭 후 취소할 경우 서비스 이용이 제한될 수 있습니다. \n ",
+    1: "ddddd"
   };
+
+  
 
   return (
     <div>
       <h2>⚠ 필독 ⚠</h2>
       <textarea readOnly className={style.agree}>
-        {text[0]}
+        {text}
       </textarea>
       <br></br>
       <p className="agree">
