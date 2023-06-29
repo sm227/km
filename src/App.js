@@ -3,7 +3,7 @@ import './App.css';
 import Home from './Home';
 import Menu from './Menu';
 import Taxi from './Taxi';
-import Admin from './Admin';
+import Login from './Login';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
               <Route path={"/"} element={<Home />}></Route>
               <Route path={"/Menu"} element={<Menu />}></Route>
               <Route path={"/Taxi"} element={<Taxi />}></Route>
-              <Route path={"/Admin"} element={<Admin />}></Route>
+              <Route path={"/Login"} element={<Login />}></Route>
               
           </Routes>
           </BrowserRouter>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { useNavigate } from "react-router-dom";
-import "./Admin"
 
 export default function Home() {
   const movePage = useNavigate();
@@ -18,8 +17,8 @@ export default function Home() {
     movePage("./Taxi");
   }
 
-  function goAdmin() {
-    movePage("./Admin")
+  function goLogin() {
+    movePage("./Login");
   }
 
   return (
@@ -36,7 +35,7 @@ export default function Home() {
       </a>
       <div className="live">
         <p>도봉산역 : 🟢</p>
-        <p>화정역 : {First}</p>
+        <p>화정역 : </p>
         <p>구리역 : ❌</p>
       </div>
       <h1 className="title">오뱃뭐?</h1>
@@ -57,10 +56,13 @@ export default function Home() {
             🏫 경민대학교 포털
           </button>
         </p>
+        <button className="glow-on-hover" type="button" onClick={goLogin}>
+          로그인
+        </button>
       </div>
       <br></br>
       <h3 className="ver">Ver 2.0 Beta</h3>
-      <button className="admin" onClick={goAdmin}>관리자 로그인</button>
+      <p></p>
     </div>
   );
 }
